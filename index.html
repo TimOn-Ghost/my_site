@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Страница регистрации</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+<header>
+</header>
+	<body>
+<br>
+<h1 class="CENTER">Форма регистрации</h1>
+	<table border="0" width="100%" cellpadding="5">
+	<tr>
+    <th width="33.3%" class="top">
+	<a href="">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Redhead_Cat_%28%D0%A0%D1%8B%D0%B6%D0%B8%D0%B9_%D0%9A%D0%BE%D1%82%29.jpg" width="100%" height="auto" alt="Мой классный котик">
+		</a></th>
+    <th width="33.3%">
+  
+
+<DIV class="left">
+<form method="get">
+			
+			<p>
+			<label for="name">Имя*</label><br>
+			<input type="text" required id="name" name="name" maxlength="10" size="30"/>
+			</p>
+			
+			<p>
+			<label for="surname">Фамилия*</label><br>
+			<input type="text" required id="surname" name="surname" maxlength="16" size="30"/>
+			</p>
+			<p>
+			<a
+			<label for="sex">Пол*</label><br>
+			М<input type="radio" required id="man" name="sex" />
+			Ж<input type="radio" required id="woman" name="sex" />
+			</p>
+
+			<p>
+                <label for="age">Возраст*:</label><br>
+                <input type="number" required min="18" max="120" value="18" id="age" name="age" size="30"/>
+            </p>
+			<p>
+			<label for="email">Электронная почта*</label><br>
+                <input type="email" required placeholder="@gmail.com"
+                        pattern=".+@gmail.com" id="email" name="email" size="30"/>
+			</p>
+            <p>
+                <label for="password">Пароль*</label><br>
+                <input type="password" required id="password" name="password" size="30"/>
+            </p>
+			
+			<p>
+			<label for="website">Веб-сайт</label><br>
+			<input type="text" placeholder="https:// "
+                        pattern="https://*" id="website" name="website" size="30"/>
+			</p>
+	
+			<p>
+			<label for="self_story">О себе</label><br>
+			<textarea name="message" id="self_story" cols="40" rows="6" minlength="10" maxlength="200" size="30"></textarea>
+			</p>
+	
+			<p>
+				<label for="agree_rules">Согласны ли вы с <a href"">правилами</a>?</label>
+				<input type="checkbox" required name="agree_rules" id="agree_rules">
+			</p>
+			
+            <p>
+                <input type="submit" value="Отправить" />
+            </p>
+<p>
+* помечены обязательные для заполнения поля
+</p>
+
+</form>
+</DIV>
+
+</th>
+<th width="33.3%">
+
+</th>
+</tr>
+</table>
+</body>
+</html>
